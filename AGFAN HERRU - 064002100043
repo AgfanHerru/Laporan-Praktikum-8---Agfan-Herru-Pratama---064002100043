@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 17 10:01:31 2021
+
+@author: hp
+NAMA: AGFAN HERRU PRATAMA
+NIM: 064002100043
+"""
+print ("@@@@ @@@@ @@@@ @@@@ @@   @")
+print ("@  @ @    @    @  @ @ @  @")
+print ("@@@@ @ @@ @@@@ @@@@ @  @ @")
+print ("@  @ @@@@ @    @  @ @   @@\n")
+
+def index_ganjil(karakter):
+    isian = [karakter[i] for i in range(len(karakter)) if i%2==1]
+    print('Karakter Index Ganjil: ',''.join(isian))
+    return(isian)
+
+bacavalidinput=input('Masukan sebuah kata: ')
+index_ganjil(bacavalidinput)
